@@ -4,7 +4,7 @@ groupadd escuela
 #creacion del primer usuario "profesor"
 useradd -m -d  /home/profesor -s /bin/bash profesor
 #creacion del segundo usuario "alumno"
-useradd -m -d /home/alumno -s /bin /bash 
+useradd -m -d /home/alumno -s /bin /bash  alumno 
 #agregar primer usuario
 ussermod -a -G profesor escuela
 #agregar segundo usuario 
